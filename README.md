@@ -83,3 +83,42 @@ O sistema está atualmente em deploy na Vercel. Você pode acessá-lo através d
    ```sh
    npm run dev
    ```
+
+## Regras de Negócio
+
+1. **Cadastro de Pratos:** Apenas administradores podem cadastrar, editar e remover pratos.
+2. **Pedidos:** Usuários podem fazer pedidos de pratos disponíveis no cardápio.
+3. **Favoritos:** Usuários podem adicionar pratos aos favoritos para fácil acesso posterior.
+4. **Histórico de Pedidos:** Usuários podem visualizar um histórico de todos os pedidos realizados.
+5. **Gerenciamento de Pedidos:** Administradores podem atualizar o status dos pedidos.
+
+## Cenários de Uso
+
+### Administrador
+
+- **CRUD de Pratos:**
+  - **Criar:** Administrador acessa a página de criação de pratos, preenche o formulário com os detalhes do prato e salva.
+  - **Atualizar:** Administrador acessa a página de edição de pratos, modifica os detalhes e salva.
+  - **Deletar:** Administrador remove um prato da lista de pratos disponíveis.
+- **Gerenciamento de Pedidos:**
+  - **Visualizar:** Administrador vê a lista de todos os pedidos realizados.
+  - **Atualizar Status:** Administrador atualiza o status de um pedido conforme necessário.
+
+### Usuário Normal
+
+- **Fazer Pedido:**
+  - **Selecionar Prato:** Usuário navega pelo cardápio, seleciona os pratos desejados e faz o pedido.
+- **Favoritar Prato:**
+  - **Adicionar Favorito:** Usuário marca um prato como favorito para acesso rápido.
+- **Ver Detalhes do Prato:**
+  - **Visualizar Descrição:** Usuário vê detalhes completos de um prato, incluindo descrição, ingredientes e preço.
+- **Ver Histórico de Pedidos:**
+  - **Acessar Histórico:** Usuário visualiza um histórico de todos os pedidos anteriores.
+  - **Fazer Pedido:**
+    - Selecionar Prato: Usuário navega pelo cardápio, seleciona os pratos desejados e faz o pedido.
+  - **Favoritar Prato:**
+    - Adicionar Favorito: Usuário marca um prato como favorito para acesso rápido.
+  - **Ver Detalhes do Prato:**
+    - Visualizar Descrição: Usuário vê detalhes completos de um prato, incluindo descrição, ingredientes e preço.
+  - **Ver Histórico de Pedidos:**
+    - Acessar Histórico: Usuário visualiza um histórico de todos os pedidos anteriores.
