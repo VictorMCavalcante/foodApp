@@ -114,11 +114,4 @@ O sistema está atualmente em deploy na Vercel. Você pode acessá-lo através d
   - **Visualizar Descrição:** Usuário vê detalhes completos de um prato, incluindo descrição, ingredientes e preço.
 - **Ver Histórico de Pedidos:**
   - **Acessar Histórico:** Usuário visualiza um histórico de todos os pedidos anteriores.
-  - **Fazer Pedido:**
-    - Selecionar Prato: Usuário navega pelo cardápio, seleciona os pratos desejados e faz o pedido.
-  - **Favoritar Prato:**
-    - Adicionar Favorito: Usuário marca um prato como favorito para acesso rápido.
-  - **Ver Detalhes do Prato:**
-    - Visualizar Descrição: Usuário vê detalhes completos de um prato, incluindo descrição, ingredientes e preço.
-  - **Ver Histórico de Pedidos:**
-    - Acessar Histórico: Usuário visualiza um histórico de todos os pedidos anteriores.
+  
