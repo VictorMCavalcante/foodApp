@@ -42,7 +42,7 @@ O sistema está atualmente em deploy na Vercel. Você pode acessá-lo através d
 
 1. Navegue até o diretório do front-end:
    ```sh
-   cd frontend
+   cd web
    ```
 2. Instale as dependências:
    ```sh
@@ -66,7 +66,7 @@ O sistema está atualmente em deploy na Vercel. Você pode acessá-lo através d
 
 1. Navegue até o diretório do front-end:
    ```sh
-   cd frontend
+   cd web
    ```
 2. Execute o comando para iniciar o servidor de desenvolvimento:
    ```sh
