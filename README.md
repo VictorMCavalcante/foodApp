@@ -53,7 +53,7 @@ O sistema está atualmente em deploy na Vercel. Você pode acessá-lo através d
 
 1. Navegue até o diretório do back-end:
    ```sh
-   cd backend
+   cd server
    ```
 2. Instale as dependências e realize as migrações do banco de dados:
    ```sh
@@ -77,7 +77,7 @@ O sistema está atualmente em deploy na Vercel. Você pode acessá-lo através d
 
 1. Navegue até o diretório do back-end:
    ```sh
-   cd backend
+   cd server
    ```
 2. Execute o comando para iniciar o servidor de desenvolvimento:
    ```sh
